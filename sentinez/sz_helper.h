@@ -14,10 +14,10 @@
    limitations under the License.
 */
 
-#ifndef SENZ_HELPER_H
-#define SENZ_HELPER_H
+#ifndef SZ_HELPER_H
+#define SZ_HELPER_H
 
 #define debug(fmt, ...) \
-    bpf_printk("[senz][%s:%d] " fmt, __FILE__, __LINE__, ##__VA_ARGS__)
+    bpf_printk("[sz][%s:%d] " fmt, __FILE__, __LINE__, ##__VA_ARGS__)
 
 #endif

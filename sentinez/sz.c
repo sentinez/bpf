@@ -19,11 +19,11 @@
 #include <linux/bpf.h>
 #include <bpf/bpf_helpers.h>
 
-#include "senz_security.h"
-#include "senz_monitor.h"
+#include "sz_security.h"
+#include "sz_monitor.h"
 
 SEC("xdp")
-int senz_main(struct xdp_md *ctx)
+int sz_main(struct xdp_md *ctx)
 {
     enum xdp_action action = bandwidth_handler(ctx);
     if (action != XDP_PASS) {

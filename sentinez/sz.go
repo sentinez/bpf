@@ -12,5 +12,5 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-//go:generate go tool bpf2go Senz ./senz.c
+//go:generate go tool bpf2go Sz ./sz.c
 package sentinezbpf

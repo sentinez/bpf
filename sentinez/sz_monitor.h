@@ -14,13 +14,13 @@
    limitations under the License.
 */
 
-#ifndef SENZ_MONITOR_H
-#define SENZ_MONITOR_H
+#ifndef SZ_MONITOR_H
+#define SZ_MONITOR_H
 
 #include <linux/bpf.h>
 #include <bpf/bpf_helpers.h>
 
-#include "senz_helper.h"
+#include "sz_helper.h"
 #include <linux/if_ether.h>
 #include <linux/ip.h>
 

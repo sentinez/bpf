@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef SENZ_KERN_H
-#define SENZ_KERN_H
+#ifndef SZ_KERN_H
+#define SZ_KERN_H
 
 
 

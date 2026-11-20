@@ -14,15 +14,15 @@
    limitations under the License.
 */
 
-#ifndef SENZ_SECURITY_H
-#define SENZ_SECURITY_H
+#ifndef SZ_SECURITY_H
+#define SZ_SECURITY_H
 
 #include <linux/bpf.h>
 #include <linux/if_ether.h>
 #include <linux/ip.h>
 #include <bpf/bpf_helpers.h>
 
-#include "senz_helper.h"
+#include "sz_helper.h"
 
 #define MAX_BLOCK 128   // number of IP / CIDR can block
 
